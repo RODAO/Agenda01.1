@@ -121,7 +121,7 @@ public class FormularioActivity extends AppCompatActivity {
                     dao.insere(aluno);
                 }
                 dao.close();
- // teste git
+ // teste git //Alteracao correta!
                 Toast.makeText(FormularioActivity.this, "Aluno" + aluno.getNome() + "salvo!", Toast.LENGTH_SHORT).show();
                 finish();
                 break;
